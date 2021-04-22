@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <!-- CSS custom -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Ross Johnstone</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar shadow navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Ross Johnstone</a>
+        <div class="right-side-nav">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Portfolio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Launch screen -->
+    <section class="first">
+      <div class="container top-container">
+        <img
+          class="img-fluid profile-pic"
+          src="assets/profile.jpg"
+          alt="Profile"
+        />
+        <h1 class="name">Ross Johnstone</h1>
+        <h5>
+          Hello I am a
+          <span class="sd">AWS Cloud Practitioner Trainee</span>
+        </h5>
+        <div class="icon-container">
+          <a href=""><i class="fab fa-linkedin"></i></a>
+          <a href=""><i class="fab fa-github"></i></a>
+          <a href=""><i class="far fa-envelope"></i></a>
+        </div>
+        <div id="about"></div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about">
+      <div class="container">
+        <h1 class="text-center">About</h1>
+        <div class="custom-hr"></div>
+        <div class="row about-me">
+          <div class="col-lg-6">
+            <img
+              class="img-fluid about-me-img"
+              src="assets/aboutMe.svg"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-6 text-container">
+            <p>
+             My name is Ross Johnstone. Have worked as a Data Analyst in the finance industry. I 
+			 am an energetic individual who is effective at multitasking and working under pressure 
+			 to accomplish overall team objectives. I have been studying, computer networking and I.T support
+			 at New Collage Lanarkshire for the past three years, at HNC and HND level. Currently pursuing AWS 
+			 cloud practitioners training. Looking to pursue a career in cloud. 
+            </p>
+            <p>
+              I am a great team player, a hardworking developer and I'm a
+              flexible, social and open person and, above all, I try my hardest
+              to make each experience as pleasant and as memorable as possible
+              to everyone around me.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="skills"></div>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills">
+      <div class="container">
+        <h1 class="text-center">Skills</h1>
+        <div class="custom-hr"></div>
+        <div class="skills-container">
+          <div class="skills-card shadow">
+            <p>AWS</p>
+          </div>
+          <div class="skills-card shadow">
+            <p>Networking</p>
+          </div>
+          <div class="skills-card shadow">
+            <p>Python</p>
+          </div>
+          <div class="skills-card shadow">
+            <p>IT Support</p>
+          </div>
+          <div class="skills-card shadow">
+            <p>Linux</p>
+          </div>
+          <div class="skills-card shadow">
+            <p>Server Administration</p>
+          </div>
+        </div>
+        <div id="projects"></div>
+      </div>
+    </section>
+
+    <section>
+      <h1 class="text-center mt-5">Experience</h1>
+      <ul class="timeline">
+        <!-- Item 1 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexa"></span>
+              <span class="flag">Smith & Williamson</span>
+              <span class="time-wrapper"
+                ><span class="time">2020-2021</span></span
+              >
+            </div>
+            <div class="desc">
+                Working as a data analyst was a new challenge for me, when I originally 
+				applied for the company, it was for a role in I.T support. Due to covid and everyone 
+				in the company working form home, the position closed. They had an ongoing data migration
+				project, and they needed staff to complete it. It involved migrating client’s data form the
+				old HP system to the new Avaloq banking database system. I enjoyed working there it was a 
+				great new experience.
+
+            </div>
+          </div>
+        </li>
+
+        <!-- Item 2 -->
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexa"></span>
+              <span class="flag">William Grant’s and Son’s </span>
+              <span class="time-wrapper"
+                ><span class="time">2018-2020</span></span
+              >
+            </div>
+            <div class="desc">
+                My role William Grants was in the production area. I was responsible
+				for insuring all good that left the production line were produced to 
+				a high standard, removing and documenting issues and errors. It worked
+				there while I was in education.
+            </div>
+          </div>
+        </li>
+
+        
+
+        <!-- Item 3 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexa"></span>
+              <span class="flag">Morrison’s</span>
+              <span class="time-wrapper"
+                ><span class="time">2006-2016</span></span>
+            </div>
+            <div class="desc">
+               I started working at Morrison’s when I left school. I was responsible for placing stock in the
+			   warehouse on delivery, checking deliveries to paperwork. Counting stock items and returns ensuring
+			   health & safety rules were always observed.
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    
+
+    <!-- Footer -->
+    <section class="footer">
+      <div class="container">
+        <div class="icon-container">
+          <a href=""><i class="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin"></i></a>
+          <a href=""><i class="https://github.com/RossJ90"></i></a>
+          <a href=""><i class="rossjohnstone909@gmail.com"></i></a>
+        </div>
+        <p class="text-footer">Ross Johnstone © 2021</p>
+      </div>
+    </section>
+  </body>
+</html>
